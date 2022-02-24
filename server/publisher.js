@@ -1,6 +1,5 @@
 const amqp = require('amqplib');
-const connectionString =
-  'amqps://zyndfozh:jRa8bzHtm6Ta_nvLOcJtxPjx16NmMFuh@gull.rmq.cloudamqp.com/zyndfozh';
+const connectionString = ''
 
 const channelQueue = 'invoice';
 
