@@ -1,0 +1,17 @@
+{
+  "name": "simple-invoice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node ./server/index.js",
+    "service": "node ./services/consume.js",
+    "start": "concurrently -k \" npm run server\" \"npm run service \""
+  },
+  "keywords": [],
+  "author": "Oluwayanmife Akeju",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
